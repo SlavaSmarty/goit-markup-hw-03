@@ -286,11 +286,13 @@ body {
 }
 
 .about-after-title {
+
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--header-contact-color);
+    min-width: 264px;
 
 
 }
@@ -306,13 +308,14 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--feature-title-color);
+    margin-bottom: 72px;
 
 }
 
 .feature-list {
     display: flex;
     gap: 24px;
-    margin-left: 156px;
+
     margin-bottom: 120px;
 }
 
@@ -451,7 +454,8 @@ body {
     clip-path: inset(50%);
     margin: -1px;
 }
-.container-title{
+
+.container-title {
     padding-top: 32px;
     padding-bottom: 32px;
     padding-right: 16px;
@@ -476,22 +480,15 @@ body {
     gap: 24px;
     justify-content: center;
 }
-.portfolio content{
+
+
+.flex-container {
     display: flex;
     flex-wrap: wrap;
-    /* column-gap: 24px; 
+    column-gap: 24px;
     row-gap: 48px;
-    justify-content: center; */
-}
-
-/* .flex-container{ 
-     display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    margin-left: 155px;
     margin-top: 72px;
-    margin-bottom: 120px;
- */
+}
 
 .portfolio-btn {
     font-family: 'Roboto';
@@ -533,7 +530,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--feature-title-color);
-    
+
 
 
 }
