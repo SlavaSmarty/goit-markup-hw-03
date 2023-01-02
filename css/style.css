@@ -69,13 +69,10 @@ body {
 /* --header-- */
 
 
+
 .header-list {
     display: flex;
     gap: 40px;
-
-
-
-
 }
 
 .header-link {
@@ -101,13 +98,13 @@ body {
     gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
+    
 
 }
 
 .contact {
     margin-left: auto;
-    margin-right: 156px;
-    display: block;
+    
 
 }
 
@@ -173,6 +170,9 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--header-contact-color);
+    padding-top: 24px;
+    padding-bottom: 24px;
+    
 }
 
 .header-mail:hover,
@@ -187,6 +187,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--header-contact-color);
+    padding-top: 24px;
+    padding-bottom: 24px;
 
 }
 
@@ -348,9 +350,11 @@ body {
     display: flex;
     gap: 24px;
     margin-top: 72px;
+}
 
-
-
+.team-after-content{
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .list {}
@@ -370,7 +374,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--feature-title-color);
-    margin-top: 32px;
+    
 }
 
 .team-after-title {
@@ -382,7 +386,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--header-contact-color);
     margin-top: 8px;
-    margin-bottom: 32px;
+    
 }
 
 /* --footer-- */
@@ -392,7 +396,7 @@ body {
     margin-top: 0 auto;
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 156px;
+    
 }
 
 .footer-link {
@@ -471,7 +475,7 @@ body {
 
 
 .portfolio-two {
-    margin-bottom: 48px;
+    
 }
 
 .portfolio-list {
